@@ -1,0 +1,258 @@
+
+body{
+    background-color: #DCDCDC;
+}
+header{
+    background-color: white;
+    border-radius: 10px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.imguser{
+    max-width: 60px;
+    max-height: 60px;
+   
+}
+.oneone{
+    background-color: white;
+   
+    border-radius: 20px;
+}
+section.one{
+    margin-top: 90px;
+}
+@media screen and (max-width: 767px) { 
+    section.one {
+    margin-top: 120px;
+    }
+    }
+/* @media screen and (max-width: 1950px) { 
+    section.one {
+    margin: 0 20% 0 20%;
+    }
+    }
+@media screen and (max-width: 1500px) { 
+    section.one {
+    margin: 0 120px;
+    }
+}
+@media screen and (max-width: 1288px) { 
+    .imgone {
+    margin-top: 100px;
+    }
+    section.one{
+        margin: 0 30px;
+    }
+}
+@media screen and (max-width: 990px) { 
+    .imgone {
+    margin: 0;
+    }
+}
+@media screen and (max-width: 650px) { 
+section.one{
+margin: 0;
+}
+} */
+section.two{
+    border-radius: 20px;
+}
+.carousel-inner{
+    background-color: white;
+    border-radius: 20px;
+    margin: auto 0;
+}
+.imgone{
+    width: 400px;
+}
+.imgTwo{
+    display: block;
+   margin: 0 auto;
+   
+}
+/* Меняет картинку 
+@media screen and (max-width: 1470px) { 
+    .imgone {
+        content: url("../img/111.jpg");
+    }
+}
+@media screen and (max-width: 980px) { 
+    .imgone {
+        content: url("../img/222.png");
+    }
+} */
+/* Скоращает дистанцию в картинки
+ @media screen and (max-width: 1470px) { 
+.imgone {
+    margin-top: 190px;
+}
+}
+@media screen and (max-width: 989px) { 
+    .imgone {
+        margin: 0;
+    }
+} */
+.slidetwwo{
+    
+    background-color: white;
+    border-radius: 20px;
+}
+.img666{
+    border-radius: 80px;
+    max-height: 180px;
+    display: block;
+    margin: 0 auto;
+
+}
+@media screen and (max-width: 1399px) { 
+    .text1 {
+        font-size: 17px;
+    }
+    .img666{
+        margin-top: 6px;
+        max-height: 140px;
+    }
+}
+@media (min-width:1199px) and (max-width: 1399px) { 
+    .text1 {
+        font-size: 17px;
+    }
+    .img666{
+        margin-top: 25px;
+        max-height: 140px;
+    }
+}
+@media screen and (max-width: 991px) { 
+    .slidetwwo{
+        margin-top: 20px;
+    }
+ }
+ 
+
+
+
+ /*3etap*/
+.container.free{
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+ 
+ .img777{
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+ }
+ .slidetwo{
+    background-color: whitesmoke;
+    border-radius: 90px;
+    margin: 20px;
+ }
+ @media (min-width: 991px) and (max-width: 1399px) { 
+    .slidetwo{
+        margin-top: 40px;
+    }
+ }
+ .buttonzakaz{
+    display: flex;
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: 2px black solid;
+    background-color: #FF90E8;
+    margin-bottom: 20px;
+    margin-top: 20px;
+ }
+ .buttonzakaz:hover{
+    background-color: brown;
+ }
+ .textzakazat{
+    margin: auto auto;
+ }
+
+
+ /*4 otdelenie */
+ .container.five{
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 20px;
+ }
+ .img8888{
+    display: block;
+    margin: 0 auto;
+ }
+ .accordion.one{
+    margin-top: 30px;
+   margin-left: 30px;
+   margin-bottom: 30px;
+ }
+ @media screen and (max-width: 1399px) {
+    .img8{
+        margin: auto 0;
+    }
+ }
+ @media screen and (max-width: 991px) { 
+    .img8888{
+        display: none;
+    }
+    .accordion.one{
+        margin: 20px auto;
+    }
+ }
+ @media screen and (min-width: 991px) { 
+    .fiverow{
+        display: none;
+    }
+ }
+ .accordion-button::after{
+    background-image: url(../img/gumroad\ coin\ 1.png);
+ }
+ .accordion-button:not(.collapsed)::after{
+    background-image: url(../img/gumroad\ coin\ 2.png);
+    width: 90px;
+ }
+ .accordion-button:not(.collapsed){
+    box-shadow: none;
+    background-color: #52BEB4;
+    color: black;
+ }
+ .accordion-item{
+    border: rgb(73, 63, 63) 1px solid;
+ }
+ .container.seven{
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 20px;
+    
+ }
+
+
+ /* otzivi*/
+
+.imgotz{
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    
+}
+.sevenotz{
+    background-color: #f0eded;
+    border-radius: 30px;
+   
+    padding: 0;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px 20px 0 20px;
+}
+.sevenrow{
+    margin-bottom: 30px;
+}
